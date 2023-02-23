@@ -1,0 +1,16 @@
+.carouselArrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    padding: 20px;
+  }
+
+.arrow {
+    transition-duration: 500ms;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}

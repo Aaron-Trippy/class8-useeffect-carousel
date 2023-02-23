@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  padding: 6rem;
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+}
+
+.pageLink {
+  color: var(--color-accent);
+  font-size: 1.5em;
+  border: solid;
+  border-radius: 15px;
+  padding: 15px;
+  text-decoration: none;
+  border-color: var(--color-primary);
+  width: 180px;
+  text-align: center;
+  border-width: 2px;
+  transition-duration: 500ms;
+}
+
+.pageLink:hover{
+  border-color: var(--color-secondary);
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
